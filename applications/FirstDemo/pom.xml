@@ -31,6 +31,22 @@
 		<type>jar</type>
 	</dependency>
 
+
+<dependency>
+  <groupId>android.support</groupId>
+  <artifactId>compatibility-v4</artifactId>
+  <version>19.0.1</version>
+</dependency>
+
+<dependency>
+  <groupId>com.google.android.maps</groupId>
+  <artifactId>maps</artifactId>
+  <version>19_r2</version>
+  <scope>provided</scope>
+</dependency>
+
+
+
   </dependencies>
 
   <build>
