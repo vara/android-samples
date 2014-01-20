@@ -5,12 +5,22 @@
         android:orderInCategory="100"
         android:showAsAction="never"
         android:title="@string/action_settings"/>
-    
-        <item
-        android:id="@+id/action_refresh"
-        android:orderInCategory="100"
-        android:showAsAction="never"
-        android:title="REFRESH"/>
+
+    <item
+            android:id="@+id/menu_teren"
+            android:orderInCategory="100"
+            android:showAsAction="never"
+            android:title="Teren"/>
+    <item
+            android:id="@+id/menu_normal_map"
+            android:orderInCategory="100"
+            android:showAsAction="never"
+            android:title="Mapa"/>
+    <item
+            android:id="@+id/menu_hybrid"
+            android:orderInCategory="100"
+            android:showAsAction="never"
+            android:title="Hybrid"/>
 
     <item
         android:id="@+id/action_show_my_location"
